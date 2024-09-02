@@ -1,0 +1,19 @@
+{
+  "name": "cypress_project",
+  "version": "1.0.0",
+  "dependencies": {
+    "cypress": "^13.14.1"
+  },
+  "devDependencies": {
+    "allure-cypress": "^3.0.0-beta.11",
+    "chance": "^1.1.12"
+  },
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
