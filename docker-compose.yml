@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  cypress:
+    image: cypress/included
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/e2e
+    command:
+      - /bin/sh -c "/e2e/run-tests.sh"
+    working_dir: /e2e
+    environment:
+      - LOGIN=${LOGIN}
+      - PASSWORD=${PASSWORD}

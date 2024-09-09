@@ -1,0 +1,6 @@
+allure-results
+.idea
+*.iml
+cypress.env.json
+allure-report
+

@@ -5,6 +5,7 @@
     "cypress": "^13.14.1"
   },
   "devDependencies": {
+    "allure-commandline": "^2.30.0",
     "allure-cypress": "^3.0.0-beta.11",
     "chance": "^1.1.12"
   },
